@@ -8,7 +8,7 @@ app.use("", productRouter)
 
 app.listen('5000', ()=> console.log('server running on 5000'))
 
-mongoose.connect('mongodb+srv://svishnupriya2711:vishnupriya2711@cluster0.odrp3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://svishnupriya2711:svishnupriya2711@cluster0.odrp3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(()=> console.log('database connected..'))
     .catch((err) => console.log(err))
 
