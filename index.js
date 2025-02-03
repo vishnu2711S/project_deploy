@@ -14,4 +14,4 @@ mongoose.connect('mongodb://localhost:27017/sample')
 
 
 app.get('/', (req, res)=>{
-  res.send('server reacted...'})
+  res.send('server reacted...')})
